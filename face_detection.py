@@ -11,7 +11,7 @@ eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml
 
 # Get the full path to the sound file
 current_dir = os.path.dirname(os.path.abspath(__file__))
-sound_file = os.path.join(current_dir, 'system-notification.mp3')
+sound_file = os.path.join(current_dir, 'jump.mp3')
 
 
 # Function to detect faces and eyes, and play beep sound when blinking is detected
