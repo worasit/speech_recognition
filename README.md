@@ -9,6 +9,18 @@
     ```
     
 
+## How to publish the game to PyPI
+
+- ```shell
+  python setup.py sdist
+  twine upload dist/*
+  ```
+
+## How to install the game
+- ```shell
+  pipx install dinosaur-run-game
+  dino-game
+  ```
 
 ## Useful Links
 
